@@ -15,7 +15,7 @@ app.use(express.static('build'));
 
 app.get('*', function(req, res) {
   console.log(__dirname)
-  res.sendFile(path.join(__dirname, '../build/index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(port, function(err) {
