@@ -11,7 +11,6 @@ const app = express();
 
 app.use(compression());
 app.use(express.static('build'));
-app.use(favicon(path.join(__dirname,'assets','build','favicon.ico')));
 
 app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, '../build/index.html'));
