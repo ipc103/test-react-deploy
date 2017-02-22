@@ -47,6 +47,11 @@
     "whatwg-fetch": "2.0.2"
   },
   "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.1",
+    "favicon": "0.0.2",
+    "open": "0.0.5",
+    "path": "^0.12.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
