@@ -85,7 +85,7 @@
       "^react-native$": "react-native-web"
     }
   },
-  "homepage": "http://myname.github.io/myapp",
+  "homepage": "http://ipc103.github.io/myapp",
   "babel": {
     "presets": [
       "react-app"
